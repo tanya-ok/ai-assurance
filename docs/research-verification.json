@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "claims": [
+    {
+      "id": "nist-ai-rmf",
+      "checked_on": "2026-10-15",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "observation": "AI RMF 1.0 remains under revision; GenAI profile is the 2024 publication.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "nist-sp-1353",
+      "checked_on": "2026-10-15",
+      "source": "https://csrc.nist.gov/pubs/sp/1353/ipd",
+      "observation": "Initial public draft dated 2026-08-19; comments due 2026-10-15, not a final assurance methodology.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "nist-agent-initiative",
+      "checked_on": "2026-10-15",
+      "source": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+      "observation": "An initiative addressing agent identity, security and interoperability; not a completed universal standard.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "owasp-llm-2026",
+      "checked_on": "2026-10-15",
+      "source": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+      "observation": "2026 edition; resource page dated 2026-08-03.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "owasp-agentic-2026",
+      "checked_on": "2026-10-15",
+      "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "observation": "2026 edition; resource page dated 2025-12-09.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "owasp-acs",
+      "checked_on": "2026-10-15",
+      "source": "https://github.com/GenAI-Security-Project/agent-control-standard",
+      "observation": "v0.1.0 is identified in the official repository; no interoperability claim for this prototype.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "anthropic-rsp",
+      "checked_on": "2026-10-15",
+      "source": "https://www.anthropic.com/responsible-scaling-policy?lang=us",
+      "observation": "Current linked v3.4 effective 2026-07-08; page update date 2026-08-14 is not a separate policy version.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "openai-model-spec",
+      "checked_on": "2026-10-15",
+      "source": "https://github.com/openai/model_spec/blob/main/CHANGELOG.md",
+      "observation": "Latest listed changelog release v2026.08.18.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "openai-safeguards",
+      "checked_on": "2026-10-15",
+      "source": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "observation": "Primary operational safeguards update dated 2026-08-18; does not establish the latest complete Preparedness Framework version.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "google-fsf",
+      "checked_on": "2026-10-15",
+      "source": "https://deepmind.google/frontier-safety/",
+      "observation": "Latest framework listed on the primary page is v3.1 dated 2026-04-17.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "eu-ai-act",
+      "checked_on": "2026-10-15",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "observation": "Commission page states 2026 general applicability and amended 2027/2028 high-risk transition dates; no article-level legal verification.",
+      "status": "primary-page-observed"
+    },
+    {
+      "id": "hipaa-nprm",
+      "checked_on": "2026-10-15",
+      "source": "https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/index.html",
+      "observation": "HHS still labels the document as a proposal; its own content review date is 2024-12-27. Do not infer a complete 2026 legal update from that page.",
+      "status": "primary-page-observed"
+    }
+  ]
+}

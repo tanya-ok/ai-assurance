@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Tanya Babitskaya
+# SPDX-License-Identifier: Apache-2.0
+.beads/
+__pycache__/
+*.pyc
+site/
+.data/
+.venv/
+AGENTS.local.md
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+
+dist/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/

@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2026 Tanya Babitskaya
+# SPDX-License-Identifier: Apache-2.0
+[project]
+site_name = "AI Assurance"
+site_url = "https://tanya-ok.github.io/ai-assurance/"
+repo_url = "https://github.com/tanya-ok/ai-assurance"
+site_description = "Scoped security, AI safety and compliance evidence."
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["assets/extra.css"]
+nav = [{"Overview" = "index.md"}, {"Local PoC" = "poc.md"}, {"Results" = "results.md"}, {"Project Sprint" = "sprint.md"}, {"Research" = "research.md"}, {"BlueDot adaptation" = "course-adaptation.md"}, {"Adoption" = "adoption.md"}, {"Public sources" = "sources.md"}, {"Verification" = "validation.md"}]
+
+[project.theme]
+language = "en"
+features = ["content.code.copy", "navigation.top"]
+
+[project.markdown_extensions]
+tables = {}
+toc.permalink = true
+pymdownx.superfences.custom_fences = [
+  {name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format"},
+]

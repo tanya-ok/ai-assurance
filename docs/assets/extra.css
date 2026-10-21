@@ -1,0 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 Tanya Babitskaya
+ * SPDX-License-Identifier: Apache-2.0 */
+.md-typeset { font-size: 0.86rem; line-height: 1.65; }
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.03em; }
+.md-typeset .mermaid { padding: 1rem; border: 1px solid #8884; border-radius: 0.75rem; }
+.md-typeset table:not([class]) { width: 100%; }
