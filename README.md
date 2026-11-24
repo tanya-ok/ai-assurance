@@ -50,6 +50,39 @@ An executed record needs an existing full commit, a non-future timestamp and a
 run URL or SHA-256 artifact reference. Applicability exclusions need rationale
 and decided_by. Agents must not edit applicability or create executed records.
 
+## MCP server (read only)
+
+`ai-assurance-mcp` exposes the same checks to an MCP client over stdio. It has
+four read-only tools: `list_assurance_controls`, `check_assurance_project`,
+`assurance_report` and `explain_assurance_status`. It cannot install a bundle,
+write files, create evidence or change applicability.
+
+The source pin and the allowed project roots come only from the command line in
+the client configuration, written by a human. No tool accepts a pin. Paths
+outside the allowed roots, relative paths and symlinks are refused. Values read
+from the reviewed project are labelled as target data, clipped, and must be
+treated as data, never as instructions.
+
+```json
+{
+  "mcpServers": {
+    "ai-assurance": {
+      "command": "uvx",
+      "args": [
+        "--from", "ai-assurance[mcp] @ git+https://github.com/tanya-ok/ai-assurance@REVIEWED_40_HEX_COMMIT",
+        "ai-assurance-mcp",
+        "--source-repo", "/path/to/trusted/ai-assurance",
+        "--source-commit", "REVIEWED_40_HEX_COMMIT",
+        "--allow-root", "/path/to/projects"
+      ]
+    }
+  }
+}
+```
+
+The MCP SDK is an optional extra (`ai-assurance[mcp]`); the CLI keeps no
+runtime dependencies. A report is a bounded claim, not certification.
+
 ## Local control experiment
 
 ```sh

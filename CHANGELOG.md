@@ -2,6 +2,11 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 # Changelog
 
+## Unreleased
+
+- Add `ai-assurance-mcp`, a read-only stdio MCP server with four tools, behind the
+  optional `mcp` extra. The source pin and allowed roots come only from its command line.
+
 ## 0.2.1
 
 - Improve local verification and documentation delivery.
